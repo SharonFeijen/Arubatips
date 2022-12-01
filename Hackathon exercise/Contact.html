@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aruba tips</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Aruba tips</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Activities.html">Activities</a></li>
+          <li><a href="Beaches.html">Beaches</a></li>
+          <li><a href="Restaurants.html">Restaurants</a></li>
+          <li><a href="Aboutme.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+    <main class="contactform">
+      <form name="Shareyourrecipeform" method="POST" data-netlify="true">
+        <h2 class="mainh1">Contact</h2>
+        <p class="mainp1">
+          Do you have any questions? Please feel free to contact me. You can
+          either fill out the form below or send me an
+          <a href="mailto:sharonfeijen@hotmail.com">email</a>.
+        </p>
+        <br />
+        <div>
+          <label for="name">Your name:</label>
+          <input type="text" name="name" value="Enter your name here" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Your email address:</label>
+          <input
+            type="email"
+            name="email"
+            value="Enter your email address here"
+          />
+        </div>
+        <br />
+
+        <div>
+          Have you ever visited Aruba?
+          <br />
+          <div><input type="radio" name="Evervisited" value="Yes" />Yes</div>
+          <div><input type="radio" name="Evervisited" value="No" />No</div>
+        </div>
+        <br />
+        <div>
+          <div>
+            Comment or question:
+            <br />
+            <textarea name="Comment or question" rows="10" cols="60"></textarea>
+          </div>
+          <br />
+          <div>
+            Would you like to reset this form? Reset your form here:
+            <br />
+            <br />
+            <button type="reset">Reset</button>
+          </div>
+          <br />
+          <div>
+            Submit your form here:
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div>Website created by Sharon Feijen | © 2022 All rights reserved</div>
+    </footer>
+  </body>
+</html>
